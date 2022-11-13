@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    box-shadow: 0 0 1px 3px #000000;
+    max-width: 545px;
+    margin: 93px auto;
+    border-radius: 15px;
+    padding: 34px;
+}
+.alignvertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input,.output{  
+    width: 100%;
+    box-shadow: 0 0 1px 3px #6b6363;
+    padding: 10px;
+}
+.input{
+    margin: 15px 0;
+}
+textarea{
+    resize: none;
+    margin: 10px;
+}
+input ,textarea{
+    width: 100%;
+    padding: 5px 2px;
+
+}
+button{
+    width: 40%;
+    padding: 5px;
+    cursor: pointer;
+}
+.date{
+    margin: 10px 0;
+}
